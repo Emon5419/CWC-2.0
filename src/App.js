@@ -1,11 +1,10 @@
-import Banner from "./Pages/Banner/Banner";
-import Navbar from "./Pages/Home/Navbar";
+import Hero from "./Components/Hero/Hero";
+import './App.css'
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Banner />
+    <div className="App">
+      <Hero />
     </div>
   );
 }
